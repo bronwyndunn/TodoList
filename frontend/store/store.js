@@ -3,7 +3,7 @@ import rootReducer from '../reducers/root_reducer';
 
 const configureStore = () => {
   const store = createStore(rootReducer);
-  window.store = store;
+  return store;
 };
 
 export default configureStore;

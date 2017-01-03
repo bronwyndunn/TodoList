@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./todo_redux.jsx",
+  entry: "./frontend/todo_redux.jsx",
   output: {
     filename: "./bundle.js"
   },
